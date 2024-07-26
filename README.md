@@ -2,7 +2,7 @@
 
 # how to run on local machine 
 
-1 . first download git repo .
+1 . first download git repo  https://github.com/harkesh5445/teacher-portal.
 2 . install xammp.
 3 . paste git dir to c/xammp/htdocs
 4 . start xammp controll panel and start apache and my sql
