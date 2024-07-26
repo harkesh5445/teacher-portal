@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E7E7E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    text-align: center;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: 700;
+    color: #E04646;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    background-color: #FFFFFF;
+    padding: 40px;
+    padding-right: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: left;
+    width: 500px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-container .icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #CCCCCC;
+    height: 40px;
+}
+
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.forgot-password {
+    display: block;
+    text-align: right;
+    font-size: 16px;
+    color: #007BFF;
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-right: 47px;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.login-button {
+    width: 23%;
+    padding: 10px;
+    background-color: #333333;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 40px;
+}
+
+.login-button:hover {
+    background-color: #555555;
+}
+
+.fa-eye{
+    padding-right: 50px;
+    font-size: larger;
+}
